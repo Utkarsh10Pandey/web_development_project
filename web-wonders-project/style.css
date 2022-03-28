@@ -46,7 +46,6 @@ a{
     text-align: center;
     font-weight: bold;
 }
-
 .shop_now:hover{
     cursor:pointer;
 }
@@ -115,6 +114,9 @@ hr{
     margin:70px 20px;
     text-align: center;
     font-weight: bold;
+}
+.shop_now_5:hover{
+    cursor:pointer;
 }
 /* section 5 ends */
 
