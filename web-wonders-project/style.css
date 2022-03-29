@@ -1,178 +1,270 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
+
 /* navbar session  */
-.sport-title{
-    margin:0px 100px 0px 0px;
+
+.sport-title {
+    margin: 0px 100px 0px 0px;
+    display: flex;
+    text-align: left;
 }
-.navbar{
+
+.navbar {
     display: flex;
 }
-.navbar-link{
-    margin:0px 0px 0px 420px;
+#search
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 2px 0px 2px;
+    border: 2px solid black;
+    border-left: 0px;
+    background-color: gray;
+    text-align:center;
+}
+.navbar-link
+{
+    margin: 0px 0px 0px 420px;
     display: flex;
 }
-a{
+
+a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
-.title{
-    height:20px;
-    width:80px;
-    margin:2px 20px;
+
+.title {
+    max-height: 10px;
+    max-width: 90px;
+    margin: 2px 25px;
+    display: flex;
 }
+#sing
+{
+color: blue;
+}
+#wishlist
+{
+    color: blue;
+}
+#cart
+{
+    color: blue;
+}
+
+
 /* navbar session ends */
 
+
 /* section 1 */
-.description{
+
+.description {
     display: flex;
-    margin:12px 0px;
+    margin: 12px 0px;
 }
-.description-text{
-    height:300px;
-    width:500px;
-    margin:0px 300px 0px 40px;
+
+.description-text {
+    max-width: 300px;
+    max-width: 500px;
+    margin: 0px 300px 0px 40px;
 }
-.hero-header{
-    width: 400px;
-    height:300px;
+
+.hero-header {
+    max-width: 400px;
+    max-height: 300px;
 }
-.shop_now{
+
+.shop_now {
     background-color: red;
-    padding:10px 10px;
-    margin:70px 20px;
+    padding: 10px 10px;
+    margin: 70px 20px;
     text-align: center;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.shop_now:hover{
-    cursor:pointer;
+
+.shop_now:hover {
+    cursor: pointer;
 }
+
 
 /* section 1 ends */
 
+
 /* section 2 */
-.text2{
+
+.text2 {
     text-align: center;
 }
 
-hr{
+hr {
     background-color: red;
-    height:3px;
+    max-height: 3px;
 }
 
-.section2{
+.section2 {
     display: flex;
-    margin:20px;
-}
-.sethw{
-    height:300px;
-    width:300px;
+    margin: 20px;
 }
 
-.settext2{
-    margin:0px 2px;
+.sethw {
+    max-height: 300px;
+    max-width: 300px;
+    border: 1px solid black;
 }
+.seth
+{
+   max-height: 300px;
+    max-width: 300px;
+}
+
+.settext2 {
+    margin: 0px 2px;
+}
+
+
 /* section 2 ends */
 
+
 /* section 3*/
-.section3{
+
+.section3 {
     display: flex;
 }
 
-.settext3{
-    margin:0px 0px 40px 200px;
+.settext3 {
+    margin: 0px 0px 40px 200px;
 }
 
-.settext3_1{
-    margin:0px 0px 40px 200px;
+.settext3_1 {
+    margin: 0px 0px 40px 200px;
 }
+
+
 /* section 3 ends */
 
+
 /* section 4 */
-.section4_1{
+
+.section4_1 {
     display: flex;
 }
 
-.settext4{
-    margin:10px 0px 40px 100px;
+.settext4 {
+    margin: 10px 0px 40px 100px;
 }
+
+
 /* section 4 ends */
 
+
 /* section 5 */
-.section5{
+
+.section5 {
     background-color: red;
     display: flex;
     align-content: center;
     justify-content: center;
 }
 
-.shop_now_5{
+.shop_now_5 {
     background-color: green;
-    padding:10px 10px;
-    margin:70px 20px;
+    padding: 10px 10px;
+    margin: 70px 20px;
     text-align: center;
     font-weight: bold;
 }
-.shop_now_5:hover{
-    cursor:pointer;
+
+.shop_now_5:hover {
+    cursor: pointer;
 }
+
+
 /* section 5 ends */
 
+
 /* section 6 */
-.section6{
-    margin:20px 0px;
+
+.section6 {
+    margin: 20px 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.ball_image{
-    height:50px;
-    width:50px;
+.ball_image {
+    max-height: 50px;
+    width: 50px;
     border-radius: 90px;
 }
 
-.columnflex{
+.columnflex {
     text-align: center;
-    margin:4px 60px;
-    height:200px;
-    width:200px;
+    margin: 4px 60px;
+    max-height: 200px;
+    max-width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-} 
+}
+
+
 /* section 6 ends */
 
+
 /* section 7 */
-.logo{
+
+.logo {
     display: flex;
 }
 
-.logohw{
-    height:100px;
-    width:100px;
-    margin:50px 80px;
+.logohw {
+    max-height: 100px;
+    max-width: 100px;
+    margin: 50px 80px;
 }
+
+
 /* section 7 ends */
 
+
 /* footer section */
-footer{
+
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.footer1{
-    margin:12px 80px;
-
+.footer1 {
+    margin: 12px 80px;
 }
 
-p{
+p {
     font-weight: 900;
     font-size: 25px;
     color: red;
+}
+.icon
+{
+padding: 10px 0px;
+display: flex;
+}
+#twitter
+{
+    margin-right: 7px;
+    display: flex;
+}
+#linkedin
+{
+    margin-right: 7px;
+    display: flex;
 }
