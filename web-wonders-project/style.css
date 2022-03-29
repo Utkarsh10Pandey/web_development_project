@@ -10,10 +10,20 @@
     margin: 0px 100px 0px 0px;
     display: flex;
     text-align: left;
+    color: red;
 }
 
 .navbar {
     display: flex;
+    top: 0px;
+    position: sticky;
+    max-height: 50px;
+    display: inline;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
 }
 #search
 {
@@ -21,15 +31,18 @@
     align-items: center;
     justify-content: center;
     padding: 0px 2px 0px 2px;
-    border: 2px solid black;
-    border-left: 0px;
-    background-color: gray;
     text-align:center;
+    margin: 2px 2px;
+    cursor: pointer;
 }
+
 .navbar-link
 {
     margin: 0px 0px 0px 420px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -20px;
 }
 
 a {
@@ -40,20 +53,26 @@ a {
 .title {
     max-height: 10px;
     max-width: 90px;
-    margin: 2px 25px;
+    margin:2px 20px;
     display: flex;
 }
 #sing
 {
 color: blue;
+margin-left: 2px ;
+margin-top: 2px;
 }
 #wishlist
 {
     color: blue;
+    margin-left: 2px ;
+    margin-top: 2px;
 }
 #cart
 {
     color: blue;
+    margin-left: 2px ;
+    margin-top: 2px;
 }
 
 
@@ -64,7 +83,9 @@ color: blue;
 
 .description {
     display: flex;
-    margin: 12px 0px;
+    margin: 0 auto;
+    max-width: 1140px;
+
 }
 
 .description-text {
@@ -111,23 +132,68 @@ hr {
 .section2 {
     display: flex;
     margin: 20px;
-}
+    justify-content: center;
 
+}
 .sethw {
     max-height: 300px;
     max-width: 300px;
     border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sethw:hover
+{
+    border-radius: 50px;
+    cursor: pointer;
 }
 .seth
 {
-   max-height: 300px;
-    max-width: 300px;
+    height: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+.seth:hover
+{
+    cursor: pointer;
+    border-radius: 50px;
+}
+.set
+{
+    max-height:300px;
+    max-width: 300px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 71.64px;
+    padding-bottom:71.65px;
+}
+.set:hover
+{
+    cursor: pointer;
+    border-radius: 50px;
+} 
 .settext2 {
     margin: 0px 2px;
+    justify-content: center;
+    align-items: center;
 }
-
+.product_title
+{
+    margin-bottom: 2px;
+    display: flex;
+    cursor: pointer;
+}
+.product_title1
+{
+    margin-top: 15px;
+}
 
 /* section 2 ends */
 
@@ -135,15 +201,21 @@ hr {
 /* section 3*/
 
 .section3 {
-    display: flex;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
 }
 
 .settext3 {
     margin: 0px 0px 40px 200px;
+    justify-content: center;
+    align-items: center;
 }
 
 .settext3_1 {
     margin: 0px 0px 40px 200px;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -154,10 +226,14 @@ hr {
 
 .section4_1 {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .settext4 {
     margin: 10px 0px 40px 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -171,6 +247,8 @@ hr {
     display: flex;
     align-content: center;
     justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(255,0,0,1) 100%);
 }
 
 .shop_now_5 {
@@ -200,9 +278,10 @@ hr {
 }
 
 .ball_image {
-    max-height: 50px;
-    width: 50px;
-    border-radius: 90px;
+    max-height: 80px;
+    width: 80px;
+   border-radius: 90px;
+   margin-top: 20px;
 }
 
 .columnflex {
@@ -214,6 +293,7 @@ hr {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 
@@ -224,6 +304,8 @@ hr {
 
 .logo {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logohw {
